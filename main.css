@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+nav {
+    background-color: #1a202c; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+nav a {
+    transition: color 0.3s ease-in-out;
+    color: #ffffff; /* Texto blanco para enlaces */
+}
+
+nav a:hover {
+    color: #63b3ed; /* Azul claro para hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    color: #333333; /* Texto gris oscuro */
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+.border-green-500 {
+    border-color: #63b3ed; /* Azul claro */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
